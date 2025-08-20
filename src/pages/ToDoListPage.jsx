@@ -53,7 +53,7 @@ function ToDoListPage() {
     }
 
     return (
-        <div className='m-4 p-4 bg-gray-300'>
+        <div className="m-4 p-4 bg-gray-300 rounded-lg max-w-[420px] mx-auto">
             <TodoHeader onAddTodo={createTodos} />
             <TodoList todoList={todoList} editTodo={editTodo} deleteTodo={deleteTodo} toggleTodo={toggleTodo} />
         </div>
