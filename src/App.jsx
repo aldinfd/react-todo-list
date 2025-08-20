@@ -1,9 +1,9 @@
-import ToDoListPage from "./pages/toDoListPage"
+import Todo from "./pages/TodoPage"
 
 function App() {
   return (
     <>
-      <ToDoListPage />
+      <Todo />
     </>
   )
 }

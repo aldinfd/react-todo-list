@@ -2,7 +2,7 @@ import TodoHeader from "../components/TodoHeader"
 import { useEffect, useState } from "react"
 import { fetchTodosApi, createTodosApi, deleteTodosApi, editTodosApi } from "../api/todosAPI"
 import TodoList from "../components/TodoList"
-function ToDoListPage() {
+function Todo() {
 
     const [todoList, setTodoList] = useState([])
 
@@ -60,4 +60,4 @@ function ToDoListPage() {
     )
 }
 
-export default ToDoListPage
+export default Todo
